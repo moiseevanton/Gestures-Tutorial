@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  TapViewController.h
 //  GesturesDemo
 //
 //  Created by Anton Moiseev on 2016-05-15.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface TapViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIView *testView;
 
 
 @end
-

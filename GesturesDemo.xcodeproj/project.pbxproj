@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		E976BE1B1CE945D100970FC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E976BE1A1CE945D100970FC4 /* main.m */; };
 		E976BE1E1CE945D100970FC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E976BE1D1CE945D100970FC4 /* AppDelegate.m */; };
-		E976BE211CE945D100970FC4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E976BE201CE945D100970FC4 /* FirstViewController.m */; };
-		E976BE241CE945D100970FC4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E976BE231CE945D100970FC4 /* SecondViewController.m */; };
 		E976BE271CE945D100970FC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E976BE251CE945D100970FC4 /* Main.storyboard */; };
 		E976BE291CE945D100970FC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E976BE281CE945D100970FC4 /* Assets.xcassets */; };
 		E976BE2C1CE945D100970FC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E976BE2A1CE945D100970FC4 /* LaunchScreen.storyboard */; };
+		E976BE381CE946FE00970FC4 /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E976BE371CE946FE00970FC4 /* TapViewController.m */; };
+		E976BE3B1CE9470F00970FC4 /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E976BE3A1CE9470F00970FC4 /* SwipeViewController.m */; };
+		E976BE3E1CE9471E00970FC4 /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E976BE3D1CE9471E00970FC4 /* PanViewController.m */; };
+		E976BE411CE9472B00970FC4 /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E976BE401CE9472B00970FC4 /* PinchViewController.m */; };
+		E976BE441CE9473900970FC4 /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E976BE431CE9473900970FC4 /* RotationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +24,20 @@
 		E976BE1A1CE945D100970FC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E976BE1C1CE945D100970FC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E976BE1D1CE945D100970FC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E976BE1F1CE945D100970FC4 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		E976BE201CE945D100970FC4 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		E976BE221CE945D100970FC4 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		E976BE231CE945D100970FC4 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		E976BE261CE945D100970FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E976BE281CE945D100970FC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E976BE2B1CE945D100970FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E976BE2D1CE945D100970FC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E976BE361CE946FE00970FC4 /* TapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
+		E976BE371CE946FE00970FC4 /* TapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
+		E976BE391CE9470F00970FC4 /* SwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		E976BE3A1CE9470F00970FC4 /* SwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
+		E976BE3C1CE9471E00970FC4 /* PanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanViewController.h; sourceTree = "<group>"; };
+		E976BE3D1CE9471E00970FC4 /* PanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
+		E976BE3F1CE9472B00970FC4 /* PinchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
+		E976BE401CE9472B00970FC4 /* PinchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
+		E976BE421CE9473900970FC4 /* RotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		E976BE431CE9473900970FC4 /* RotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,15 +72,21 @@
 			children = (
 				E976BE1C1CE945D100970FC4 /* AppDelegate.h */,
 				E976BE1D1CE945D100970FC4 /* AppDelegate.m */,
-				E976BE1F1CE945D100970FC4 /* FirstViewController.h */,
-				E976BE201CE945D100970FC4 /* FirstViewController.m */,
-				E976BE221CE945D100970FC4 /* SecondViewController.h */,
-				E976BE231CE945D100970FC4 /* SecondViewController.m */,
 				E976BE251CE945D100970FC4 /* Main.storyboard */,
 				E976BE281CE945D100970FC4 /* Assets.xcassets */,
 				E976BE2A1CE945D100970FC4 /* LaunchScreen.storyboard */,
 				E976BE2D1CE945D100970FC4 /* Info.plist */,
 				E976BE191CE945D100970FC4 /* Supporting Files */,
+				E976BE361CE946FE00970FC4 /* TapViewController.h */,
+				E976BE371CE946FE00970FC4 /* TapViewController.m */,
+				E976BE391CE9470F00970FC4 /* SwipeViewController.h */,
+				E976BE3A1CE9470F00970FC4 /* SwipeViewController.m */,
+				E976BE3C1CE9471E00970FC4 /* PanViewController.h */,
+				E976BE3D1CE9471E00970FC4 /* PanViewController.m */,
+				E976BE3F1CE9472B00970FC4 /* PinchViewController.h */,
+				E976BE401CE9472B00970FC4 /* PinchViewController.m */,
+				E976BE421CE9473900970FC4 /* RotationViewController.h */,
+				E976BE431CE9473900970FC4 /* RotationViewController.m */,
 			);
 			path = GesturesDemo;
 			sourceTree = "<group>";
@@ -154,10 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E976BE241CE945D100970FC4 /* SecondViewController.m in Sources */,
 				E976BE1E1CE945D100970FC4 /* AppDelegate.m in Sources */,
-				E976BE211CE945D100970FC4 /* FirstViewController.m in Sources */,
+				E976BE411CE9472B00970FC4 /* PinchViewController.m in Sources */,
 				E976BE1B1CE945D100970FC4 /* main.m in Sources */,
+				E976BE441CE9473900970FC4 /* RotationViewController.m in Sources */,
+				E976BE381CE946FE00970FC4 /* TapViewController.m in Sources */,
+				E976BE3B1CE9470F00970FC4 /* SwipeViewController.m in Sources */,
+				E976BE3E1CE9471E00970FC4 /* PanViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GesturesDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moiseevanton.GesturesDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,6 +300,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GesturesDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moiseevanton.GesturesDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

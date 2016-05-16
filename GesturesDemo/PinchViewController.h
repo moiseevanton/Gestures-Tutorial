@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  PinchViewController.h
 //  GesturesDemo
 //
 //  Created by Anton Moiseev on 2016-05-15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface PinchViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *testView;
 
 @end
-
